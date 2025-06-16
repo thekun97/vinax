@@ -1,5 +1,5 @@
 ---
-title: Example Guide
+title: Cải thiện truy xuất
 description: A guide in my new Starlight docs site.
 ---
 
