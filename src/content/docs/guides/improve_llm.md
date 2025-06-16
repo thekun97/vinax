@@ -1,6 +1,6 @@
 ---
 title: Tối ưu hoá LLMs
-description: A guide in my new Starlight docs site.
+description: Tối ưu hoá LLMs
 ---
 
 Mô hình ngôn ngữ lớn (Large Language Models – LLM) như GPT-4, Llama 3, hay các biến thể tương tự được huấn luyện trên lượng dữ liệu khổng lồ để hiểu và sinh ngôn ngữ. Tuy nhiên, những mô hình này có giới hạn: sau khi huấn luyện, kiến thức của chúng cố định ở một mốc thời gian nhất định (cutoff) và không được cập nhật tự động khi thông tin mới xuất hiện. Điều này dẫn đến việc khi LLM được hỏi về sự kiện gần đây hoặc thông tin chuyên sâu (chưa có trong dữ liệu huấn luyện), chúng có thể đưa ra câu trả lời sai lệch hoặc "hallucination" (bịa đặt thông tin). Ngoài ra, LLM thường không biết thông tin nội bộ, dữ liệu chuyên ngành hoặc cập nhật đặc thù của doanh nghiệp, vốn quan trọng trong nhiều ứng dụng thực tế. Do đó, cần có những phương pháp tối ưu hóa và tùy biến LLM để cải thiện độ chính xác và hiệu quả trên các tác vụ thực tế.
