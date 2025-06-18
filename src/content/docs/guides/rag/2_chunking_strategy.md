@@ -13,11 +13,15 @@ Dưới đây là các phương pháp chunking phổ biến hiện nay được 
 
 🔽 Có sẵn code mẫu của từng phương pháp ngay bên dưới bằng Google Colab — dành cho ai muốn đọc code trước. 😄
 
-💡 Nhưng nếu nắm vững lý thuyết của từng phương pháp, sẽ dễ dàng chọn ra phương pháp tối ưu nhất cho kiểu dữ liệu của mình.
+💡 Nhưng nếu nắm vững của từng phương pháp, sẽ dễ dàng chọn ra phương pháp tối ưu nhất cho kiểu dữ liệu của mình.
 
 ### Fixed-size chunking
 
+Đơn giản nhất, cách này cắt văn bản thành các đoạn có độ dài cố định, có thể có hoặc không có lặp chồng lên nhau. Ưu điểm là dễ cài đặt, nhanh và không cần thư viện NLP phức tạp. Nhược điểm là có thể cắt ngang câu hoặc chủ đề, khiến thông tin bị gián đoạn và tốn kém bộ nhớ hơn khi có trùng lặp.
+
 ### Semantic chunking
+
+Chia đoạn dựa trên ý nghĩa hoặc chủ đề ngữ nghĩa. Phương pháp này nhóm các câu nói về cùng một chủ đề thành cùng một chunk.
 
 ### Sliding window chunking
 
